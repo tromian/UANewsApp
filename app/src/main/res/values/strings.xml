@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UA News App</string>
+    <string name="breaking_news_menu_title">Breaking News</string>
+    <string name="saved_news_menu_title">Saved News</string>
+    <string name="search_news_menu_item">Search News</string>
+    <string name="et_search_hint">Search...</string>
+</resources>
