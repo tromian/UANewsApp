@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.tromian.uanewsapp.repository.NewsRepository
 
 class NewsViewModelProviderFactory(
-    val newsRepository: NewsRepository
+    private val newsRepository: NewsRepository
 ) : ViewModelProvider.Factory {
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
         return NewsViewModel(newsRepository) as T

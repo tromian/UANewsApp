@@ -16,7 +16,7 @@ import com.tromian.uanewsapp.ui.NewsViewModel
 import kotlinx.android.synthetic.main.fragment_saved_news.*
 
 class SavedNewsFragment : Fragment(R.layout.fragment_saved_news) {
-    lateinit var viewModel: NewsViewModel
+    private lateinit var viewModel: NewsViewModel
     private lateinit var newsAdapter: NewsAdapter
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

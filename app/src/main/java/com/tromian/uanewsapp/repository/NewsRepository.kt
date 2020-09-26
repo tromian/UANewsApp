@@ -5,7 +5,7 @@ import com.tromian.uanewsapp.db.ArticleDatabase
 import com.tromian.uanewsapp.models.Article
 
 class NewsRepository (
-    val db : ArticleDatabase
+    private val db : ArticleDatabase
 ) {
 
     suspend fun getBreakingNews(countryCode: String, pageNumber: Int) =

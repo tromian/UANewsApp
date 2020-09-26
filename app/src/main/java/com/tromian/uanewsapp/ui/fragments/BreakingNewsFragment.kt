@@ -18,7 +18,7 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news) {
 
     private lateinit var viewModel: NewsViewModel
     private lateinit var newsAdapter: NewsAdapter
-    val TAG = "BreakingNewsFragment"
+    private val TAG = "BreakingNewsFragment"
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

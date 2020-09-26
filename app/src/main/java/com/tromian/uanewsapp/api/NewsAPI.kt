@@ -2,6 +2,7 @@ package com.tromian.uanewsapp.api
 
 import com.tromian.uanewsapp.models.NewsResponse
 import com.tromian.uanewsapp.utill.Constants.Companion.API_KEY
+import com.tromian.uanewsapp.utill.Constants.Companion.COUNTRY_CODE
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
@@ -11,7 +12,7 @@ interface NewsAPI {
     @GET("v2/top-headlines")
     suspend fun getBreakingNews(
         @Query("country")
-        countryCode: String = "ua",
+        countryCode: String = COUNTRY_CODE,
         @Query("page")
         pageNumber: Int = 1,
         @Query("apiKey")
