@@ -51,6 +51,7 @@ class NewsAdapter : RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
             }catch (e: Error){
                 Log.e("NewsAdapter", "$e")
             }
+            tvTitle.text = article?.title
             tvSource.text = article.source?.name
             tvAuthor.text = article?.author
             tvDescription.text = article?.description

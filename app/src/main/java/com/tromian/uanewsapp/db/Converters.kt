@@ -4,7 +4,6 @@ import androidx.room.TypeConverter
 import com.tromian.uanewsapp.models.Source
 
 class Converters {
-
     @TypeConverter
     fun fromSource(source: Source) = source.name
 

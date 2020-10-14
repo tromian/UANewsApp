@@ -20,4 +20,5 @@ class NewsRepository (
 
     fun gelAlSavedNews() = db.getArticleDao().getAllArticles()
 
+
 }
