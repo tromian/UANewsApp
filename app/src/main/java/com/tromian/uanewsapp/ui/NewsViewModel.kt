@@ -156,7 +156,7 @@ class NewsViewModel(
         return false
     }
 
-    private fun checkInternetConnection() : Boolean{
+/*    private fun checkInternetConnection() : Boolean{
         val timeoutMs = 1500
         val sock = Socket()
         val sockaddr: SocketAddress = InetSocketAddress("8.8.8.8", 53)
@@ -169,7 +169,7 @@ class NewsViewModel(
             } finally {
                 sock.close()
             }
-    }
+    }*/
 
 
 }
